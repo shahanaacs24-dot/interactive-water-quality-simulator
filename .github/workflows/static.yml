@@ -37,7 +37,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
+      - name: Patch BabylonJS Editor Tools
+        run: |
+         sed -i '/shadowGeneratorSceneComponent.pure/d' node_modules/babylonjs-editor-tools/build/src/loading/shadows.js
+         sed -i '/RegisterShadowGeneratorSceneComponent/d' node_modules/babylonjs-editor-tools/build/src/loading/shadows.js
       - name: Build project
         run: npm run build
 
