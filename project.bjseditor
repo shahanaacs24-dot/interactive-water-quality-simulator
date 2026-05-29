@@ -4,13 +4,5 @@
     "packageManager": "npm",
     "lastOpenedScene": "/assets/example.scene",
     "compressedTexturesEnabled": false,
-    "compressedTexturesEnabledInPreview": false,
-    "publishMetadata": {
-        "title": "Interactive Water Quality Simulator",
-        "description": "An interactive 3D water quality laboratory simulation built using CreatorEngine and Babylon.js. Users can perform safety checks, pH calibration, turbidity analysis, conductivity testing, probe cleaning, and review water quality results through interactive stations.",
-        "projectVersion": "1.0.0",
-        "tags": "water-quality, simulation, education, babylonjs, creatorengine, webgl, 3d, laboratory",
-        "updatedAt": "2026-05-29T12:59:06.515Z",
-        "cloudProjectId": "XTnHrJiKJBYgf07XXddr"
-    }
+    "compressedTexturesEnabledInPreview": false
 }
